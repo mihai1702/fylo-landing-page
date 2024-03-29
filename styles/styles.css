@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+}
+.app-wrapper{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    padding-top: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+.header-a{
+    padding-top: 8px;
+    position: relative;
+    margin-left: auto;
+}
+.img-header{
+    width: 140px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+.first-section, .img-first-section{
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.email-box{
+    width: 90%;
+    height: 30px;
+    opacity: 70%;
+}
+.email-button{
+    width: 90%;
+    background-color: #2f65f9;
+    color: #fff;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 0px 8px #888888;
+}
+.img-second-section{
+    width: 500px;
+    max-width: fit-content;
+    padding-top: 50px;
+}
+.second-section{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-size: cover;
+    background-position: top;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+.h2-second-section{
+    width: 500px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-second-section{
+    width: 500px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a-second-section{
+    text-decoration: underline;
+    width: 500px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.founder-box{
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 350px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+.founder-profile{
+    display: flex;
+}
+.founder-name{
+    display: block;
+}
+.img-founder{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.h4-founder{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.p-founder{
+    margin-left: 20px;
+    margin-top: -17px;
+    font-size: 12px;
+}
+.quote-design{
+    width: 15px;
+}
