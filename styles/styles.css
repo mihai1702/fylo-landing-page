@@ -5,6 +5,11 @@ body{
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+    max-width: fit-content;
+}
+.p-text{
+    color: grey;
+    text-align: left;
 }
 .header{
     display: flex;
@@ -34,6 +39,7 @@ a{
     margin-right: auto;
     text-align: center;
     margin-top: 30px;
+    max-width: fit-content;
 }
 .email-box{
     width: 90%;
@@ -50,8 +56,7 @@ a{
     box-shadow: 0px 0px 8px #888888;
 }
 .img-second-section{
-    width: 500px;
-    max-width: fit-content;
+    width: 85%;
     padding-top: 50px;
 }
 .second-section{
@@ -59,21 +64,18 @@ a{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(/images/bg-curve-mobile.svg);
-    background-size: cover;
+    background-color: #f8f8fe;
     background-position: top;
     margin-top: 80px;
     padding-bottom: 40px;
 }
 .h2-second-section{
-    width: 500px;
-    max-width: fit-content;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
 .p-second-section{
-    width: 500px;
-    max-width: fit-content;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -83,6 +85,9 @@ a{
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
+}
+.a-text:hover{
+    color: #a1ddd6;
 }
 .a-text{
     color: #459f90;
@@ -131,21 +136,22 @@ a{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 40px;
+    width: 100%;
 }
 .h1-third-section, .p-third-section{
-    width: 65%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     color: #fff;
 }
 .email-box-ts{
-    width: 55%;
+    width: 80%;
     border: none;
     box-shadow: 0px 0px 8px #4d4d4d;
     height: 35px;
 }
 .email-button-ts{
-    width: 56%;
+    width: 80%;
     border: none;
     background-color: #2f65f9;
     color: #fff;
@@ -158,6 +164,7 @@ a{
 }
 .phone{
     display: flex;
+    flex-direction: row;
     margin-left: 20px;
 }
 .mail{
@@ -186,4 +193,110 @@ a{
 }
 .footer-list-2{
     padding-bottom: 100px;
+}
+@media (min-width:690px)
+{
+    .header{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    .app-wrapper{
+        width: 100%;
+    }
+    .first-section{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    .left-side-d-fs{
+        display: block;
+        text-align: left;
+    }
+    .img-first-section{
+        width: 50%;
+        height: 50%;
+        max-width: 500px;
+    }
+    .fs-email{
+        display: flex;
+        width: 80%;
+    }
+    .email-button{
+        margin-left: 10px;
+        width: 40%;
+    }
+    .email-box{
+        width: 60%;
+    }
+    /**/
+    .second-section-text{
+        display: block;
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 50%;
+        margin-right: 10%;
+    }
+    .h2-second-section{
+        margin-left: 0px;
+    }
+    .p-second-section{
+        margin-left: 0px;
+    }
+    .second-section{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 0px;
+        margin-left: 0px;
+        max-width: fit-content;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .img-second-section{
+        width: 40%;
+        height: 40%;
+    }
+    .founder-box{
+        margin-left: 0px;
+    }
+    .a-second-section{
+        margin-left: 0px;
+    }
+    /**/
+    .third-section-text{
+        width: 50%;
+    }
+    .third-section-right{
+        width: 50%;
+    }
+    .third-section{
+        display: flex;
+        text-align: left;
+        padding-left: 90px;
+        width:unset;
+    }
+    .h1-third-section{
+        margin-left: 0px;
+    }
+    .p-third-section{
+        margin-left: 0px;
+    }
+    .email-box-ts{
+        margin-top: 30px;
+    }
+    .email-button-ts{
+        width: 200px;
+    }
+    .footer{
+        display: flex;
+        padding-left: 85px;
+    }
+    .first-part{
+        display: block;
+    }
+    .footer-list-1, .footer-list-2{
+        margin-left: 20%;
+
+    }
 }
